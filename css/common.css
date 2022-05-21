@@ -13,3 +13,39 @@
     --scondary-bg-color: #F5F4FA;
     --footer-bg-color: #2F303A;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    background-color: #ffffff;
+    font-weight: normal;
+}
+
+ul {list-style: none;
+}
+
+/* Логотип========================   ?????????????  шрифт */
+.logo-header { 
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.logo-header span{
+    font-family: Raleway, sans-serif;
+    color: var(--color-acent);
+}
+
+/* Навигация ===================== ???????????   шрифт */
+.site-nav{
+    font: roboto;
+    font-size: 14px; 
+    font-weight: 500 ;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.site-nav.current {
+    color: var(--color-acent);
+}
