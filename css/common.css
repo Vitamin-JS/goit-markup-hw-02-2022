@@ -12,6 +12,7 @@
     --main-bg-color: #FFFFFF;
     --scondary-bg-color: #F5F4FA;
     --footer-bg-color: #2F303A;
+    --footer-grey-text: rgba(255, 255, 255, 0.6);
 }
 
 body{
@@ -68,29 +69,59 @@ ul {list-style: none;
     color: var(--color-acent);
 }
 
-/* =============================== Блок  Hero   ================================  */
-.hero {
-    background: rgba(47, 48, 58, 0.8);
-    /* height: 600px; */
+/* ============================== Футер  ================================== */
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+/*  ========  Логотип Футера  ============ */
+.logo-header.logo-footer {
+   color: var(--main-bg-color);
 }
 
-.hero-title {
-    font-size: 44px;
-    font-weight: 900;
-    color: #ffffff;
-    width: 696px;
-    text-align: center;
+/* ======= Тел, E-mail в футере ========== */
+.footer a{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    color: var(--footer-grey-text);
+}
+
+/* ======= Адрес в футере   ============== */
+.footer .foter-adress {
+    color: var(--main-bg-color);
+    }
+
+/* ========= Заголовки в футере   ========*/
+.title-footer {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    color: var(--main-bg-color);
+    font-style: normal;
 }
 
-.hero-btn {
-background-color: var(--color-acent);
-text-decoration: none;
-color: var(--main-bg-color);
-font-size: 16px;
-font-weight: 700;
-text-align: center;
-letter-spacing: 0.06em;
+/* ======= Ссылки на соцсети в футере   ============= */
+.foter-social a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
+/* ======= Поле ввода E-mail в футере   ============= */
+.footer-action input{
+    color: var(--footer-grey-text);
+    background-color: var(--footer-bg-color);
+}
+
+/* ======= Кнопка ПОДПИСАТЬСЯ в футере   ============= */
+.footer-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: var(--main-bg-color);
+    background-color: var(--color-acent);
 }
