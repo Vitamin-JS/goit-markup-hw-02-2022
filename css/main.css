@@ -22,5 +22,47 @@
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+/* =================== Секция Преимущесва ==============================  */
+/* font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121; */
+/* ======= Заголовки в Преимуществах======= */
+.advant-title {
+    font-weight: 700;
+    font-style: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+/* ======== Абзац в Преимуществах========== */
+.advantage p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 
 }
+/* position: absolute;
+width: 270px;
+height: 75px;
+left: 515px;
+top: 950px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+/* 
+letter-spacing: 0.03em;
+
+color: #757575; */
