@@ -17,15 +17,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     color: var(--main-text-color);
     background-color: #ffffff;
-    font-weight: normal;
-}
+  }
 
 ul {list-style: none;
 }
-/* =========================================== Стили Хедера ====================== */
+/* ======================================= Стили Хедера ========================== */
 /* ================ Логотип ============ */
 .logo-header { 
     font-size: 26px;
@@ -82,10 +80,9 @@ footer {
 
 /* ======= Адрес, Тел, E-mail в футере ========== */
 .footer a{
-    font-weight: 400;
+    /* font-weight: 400; */
     text-decoration: none;
     font-size: 14px;
-    font-style: normal;
     color: var(--footer-grey-text);
 }
 
@@ -125,4 +122,5 @@ footer {
     letter-spacing: 0.06em;
     color: var(--main-bg-color);
     background-color: var(--color-acent);
+    cursor: pointer;
 }

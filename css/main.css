@@ -30,6 +30,7 @@
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* =================== Секция Преимущесва ==============================  */
@@ -45,7 +46,6 @@
 
 /* ======== Абзац в Преимуществах========== */
 .advantage p {
-    font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
     width: 270px;
@@ -75,7 +75,6 @@
 
 /* ========== Должности =================== */
 .team-position {
-font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.03em;
 }
