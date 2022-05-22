@@ -1,9 +1,25 @@
 /* ====================== Кнопки-филтры ============================= */
-.jobs-list button{
+.filter-list button{
     font-weight: 500;
     font-size: 16px;
     color: var(--secondary-text-color);
     background: var(--secondary-bg-color);
+    border: none;
     border-radius: 4px;
     height: 38px;
+}
+
+/* =================== Примеры работ ================================= */
+/* ======== Название проекта=========== */
+.jobs-name {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+/* ========== Тип проекта============== */
+.jobs-type {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
