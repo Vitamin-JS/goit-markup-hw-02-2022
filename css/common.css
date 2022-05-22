@@ -80,7 +80,7 @@ footer {
    color: var(--main-bg-color);
 }
 
-/* ======= Тел, E-mail в футере ========== */
+/* ======= Адрес, Тел, E-mail в футере ========== */
 .footer a{
     font-weight: 400;
     text-decoration: none;
@@ -89,10 +89,11 @@ footer {
     color: var(--footer-grey-text);
 }
 
-/* ======= Адрес в футере   ============== */
-.footer .foter-adress {
+.footer a:hover,
+.footer a:focus {
     color: var(--main-bg-color);
-    }
+}
+
 
 /* ========= Заголовки в футере   ========*/
 .title-footer {
