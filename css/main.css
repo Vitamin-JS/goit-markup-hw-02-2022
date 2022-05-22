@@ -79,3 +79,11 @@ font-weight: 400;
 font-size: 16px;
 letter-spacing: 0.03em;
 }
+/* ========= Соцсети ====================== */
+.team a {
+    text-decoration: none;
+}
+/* ========================= Секция Постоянные клиенты ====================  */
+.clients a {
+    text-decoration: none;
+}

@@ -9,6 +9,11 @@
     height: 38px;
 }
 
+.filter-list button:hover,
+.filter-list button:focus {
+    background: var(--color-acent);
+}
+
 /* =================== Примеры работ ================================= */
 /* ======== Название проекта=========== */
 .jobs-name {
