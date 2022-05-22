@@ -17,6 +17,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     color: var(--main-text-color);
     background-color: #ffffff;
     font-weight: normal;
@@ -100,7 +101,7 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-bg-color);
-    font-style: normal;
+    
 }
 
 /* ======= Ссылки на соцсети в футере   ============= */
@@ -118,7 +119,6 @@ footer {
 
 /* ======= Кнопка ПОДПИСАТЬСЯ в футере   ============= */
 .footer-btn {
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.06em;

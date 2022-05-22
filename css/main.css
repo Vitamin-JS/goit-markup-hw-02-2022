@@ -1,3 +1,11 @@
+/* ========= Заголовки Чем занимаемся, Наша команда, Клиенты ================== */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
 /* =============================== Блок  Hero   ================================  */
 .hero {
     background: rgba(47, 48, 58, 0.8);
@@ -25,18 +33,11 @@
 }
 
 /* =================== Секция Преимущесва ==============================  */
-/* font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121; */
+
 /* ======= Заголовки в Преимуществах======= */
 .advant-title {
     font-weight: 700;
-    font-style: 14px;
+    font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-text-color);
@@ -44,25 +45,21 @@ color: #212121; */
 
 /* ======== Абзац в Преимуществах========== */
 .advantage p {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
-
+    width: 270px;
+    height: 75px;
 }
-/* position: absolute;
-width: 270px;
-height: 75px;
-left: 515px;
-top: 950px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-/* 
-letter-spacing: 0.03em;
-
-color: #757575; */
+/* =================== Секция Чем мы занимаемся==========================  */
+.works-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-bg-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+}
