@@ -2,6 +2,7 @@
 .filter-list button{
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.6;
     color: var(--secondary-text-color);
     background: var(--secondary-bg-color);
     border: none;
@@ -16,16 +17,30 @@
 }
 
 /* =================== Примеры работ ================================= */
+.jobs a {
+    text-decoration: none;
+}
 /* ======== Название проекта=========== */
 .jobs-name {
     font-weight: 700;
     font-size: 18px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
 }
 /* ========== Тип проекта============== */
 .jobs-type {
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.03em;
+    line-height: 1.9;
+    color: var(--main-text-color);
+}
+
+.jobs-descr {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    color: var(--color-acent);
+    width: 322px;
+    height: 168px;
 }

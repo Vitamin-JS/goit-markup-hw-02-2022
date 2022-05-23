@@ -28,6 +28,7 @@ ul {list-style: none;
 .logo-header { 
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.2;
     color: var(--secondary-text-color);
     text-decoration: none;
 }
@@ -39,9 +40,9 @@ ul {list-style: none;
 
 /* ==============  Навигация ============= */
 .site-nav{
-    font: roboto;
     font-size: 14px; 
     font-weight: 500 ;
+    line-height: 1.1;
     color: var(--secondary-text-color);
     text-decoration: none;
 }
@@ -59,6 +60,7 @@ ul {list-style: none;
 .nav-contacts a{
  text-decoration: none;
  font-size: 14px;
+ line-height: 1.1;
  font-weight: 500;
  color: var(--main-text-color);
 }
@@ -80,9 +82,9 @@ footer {
 
 /* ======= Адрес, Тел, E-mail в футере ========== */
 .footer a{
-    /* font-weight: 400; */
     text-decoration: none;
     font-size: 14px;
+    line-height: 1.7;
     color: var(--footer-grey-text);
 }
 
@@ -96,6 +98,7 @@ footer {
 .title-footer {
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-bg-color);
@@ -119,6 +122,7 @@ footer {
 .footer-btn {
     font-weight: 700;
     font-size: 16px;
+    line-height: 1.9;
     letter-spacing: 0.06em;
     color: var(--main-bg-color);
     background-color: var(--color-acent);

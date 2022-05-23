@@ -2,6 +2,7 @@
 .title {
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -15,6 +16,7 @@
 .hero-title {
     font-size: 44px;
     font-weight: 900;
+    line-height: 1.4;
     color: #ffffff;
     width: 696px;
     text-align: center;
@@ -27,6 +29,7 @@
     text-decoration: none;
     color: var(--main-bg-color);
     font-size: 16px;
+    line-height: 1.9;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.06em;
@@ -39,6 +42,7 @@
 .advant-title {
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-text-color);
@@ -47,6 +51,7 @@
 /* ======== Абзац в Преимуществах========== */
 .advantage p {
     font-size: 14px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     width: 270px;
     height: 75px;
@@ -56,6 +61,7 @@
 .works-subtitle {
     font-weight: 700;
     font-size: 14px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-bg-color);
@@ -65,10 +71,11 @@
 }
 
 /* ========================= Секция Наша команда ========================  */
-/* ========== Имена сотркдников =========== */
+/* ========== Имена сотрудников =========== */
 .team-name {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -76,6 +83,7 @@
 /* ========== Должности =================== */
 .team-position {
 font-size: 16px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 /* ========= Соцсети ====================== */
